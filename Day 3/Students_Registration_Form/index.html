@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" minlength="6" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" min="18" max="30" required><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <label>Courses:</label><br>
+        <input type="checkbox"> MERN Stack
+        <input type="checkbox"> Java Full Stack
+        <input type="checkbox"> Python
+        <br><br>
+
+        <label>City:</label><br>
+        <select>
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Nashik</option>
+        </select>
+        <br><br>
+
+        <label>Upload Resume:</label><br>
+        <input type="file"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+
+    <h2>Registered Students</h2>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Gaurav Thombare</td>
+            <td>MERN Stack</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rahul Patil</td>
+            <td>Java Full Stack</td>
+            <td>Mumbai</td>
+        </tr>
+    </table>
+
+</body>
+</html>
